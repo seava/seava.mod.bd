@@ -9,6 +9,8 @@
 		<class>seava.bd.domain.impl.classification.Classification</class>
 		<class>seava.bd.domain.impl.classification.ClassificationItem</class>
 		<class>seava.bd.domain.impl.classification.ClassificationSystem</class>
+		<class>seava.bd.domain.impl.contact.CommunicationMethod</class>
+		<class>seava.bd.domain.impl.contact.CommunicationMethodType</class>
 		<class>seava.bd.domain.impl.currency.Currency</class>
 		<class>seava.bd.domain.impl.currency.CurrencyXRate</class>
 		<class>seava.bd.domain.impl.currency.CurrencyXRateAverage</class>
