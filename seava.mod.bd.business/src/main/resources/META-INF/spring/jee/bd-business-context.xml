@@ -7,6 +7,7 @@
 
 	<import resource="../beans/bd-classification-business.xml" />	
 	<import resource="../beans/bd-currency-business.xml" />
+	<import resource="../beans/bd-contact-business.xml" />
 	<import resource="../beans/bd-geo-business.xml" />
 	<import resource="../beans/bd-uom-business.xml" />
 </beans>

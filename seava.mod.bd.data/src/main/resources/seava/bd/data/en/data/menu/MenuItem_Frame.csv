@@ -10,3 +10,5 @@ sequenceNo,name,title,frame,bundle,menuItem,active
 20,countryMD_Ui,Country with details,seava.bd.ui.extjs.frame.CountryMD_Ui,seava.mod.bd,bd-geo,true
 30,region_Ui,Regions,seava.bd.ui.extjs.frame.Region_Ui,seava.mod.bd,bd-geo,true
 40,regionMD_Ui,Region with details,seava.bd.ui.extjs.frame.RegionMD_Ui,seava.mod.bd,bd-geo,true
+10,communicationMethodTypes_Ui,Communication method,seava.bd.ui.extjs.frame.CommunicationMethodTypes_Ui,seava.mod.bd,bd-contact,true
+20,communicationMethod_Ui,Communications,seava.bd.ui.extjs.frame.CommunicationMethod_Ui,seava.mod.bd,bd-contact,false

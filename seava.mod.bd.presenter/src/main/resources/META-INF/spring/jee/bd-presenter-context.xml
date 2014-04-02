@@ -7,6 +7,7 @@
 
 	<import resource="../beans/bd-classification-presenter.xml" />	
 	<import resource="../beans/bd-currency-presenter.xml" />
+	<import resource="../beans/bd-contact-presenter.xml" />
 	<import resource="../beans/bd-geo-presenter.xml" />
 	<import resource="../beans/bd-uom-presenter.xml" />
 </beans>
