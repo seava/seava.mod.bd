@@ -1,0 +1,5 @@
+sequenceNo,name,title,menu,active
+10,bd-currency,Currency,bd,true
+20,bd-geo,Geography,bd,true
+30,bd-uom,Unit of measure,bd,true
+40,bd-classification,Classification,bd,true

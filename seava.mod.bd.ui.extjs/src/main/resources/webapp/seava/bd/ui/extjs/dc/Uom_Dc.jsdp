@@ -1,0 +1,5 @@
+[
+	"seava.mod.bd/ds/seava.bd.ui.extjs.ds.Uom_Ds", 
+	"seava.mod.bd/lov/seava.bd.ui.extjs.lov.UomTypes_Lov", 
+	"seava.mod.bd/lov/seava.bd.ui.extjs.lov.Uoms_Lov"
+]

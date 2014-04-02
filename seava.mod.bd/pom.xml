@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ro.seava.commons</groupId>
+		<artifactId>seava.parent.oss</artifactId>
+		<version>2.0</version>
+	</parent>
+	<groupId>ro.seava.mod.bd</groupId>
+	<artifactId>seava.mod.bd</artifactId>
+	<version>2.0.0-SNAPSHOT</version>
+	<name>bd: Base Data</name>
+	<description>Base Data</description>
+	<packaging>pom</packaging>
+	<url>http://www.seava.ro</url>
+	
+	<scm>
+		<url>https://github.com/seava/seava.mod.bd</url>
+		<connection>scm:git:https://github.com/seava/seava.mod.bd.git</connection>
+		<developerConnection>scm:git:https://github.com/seava/seava.mod.bd.git</developerConnection>
+	</scm>
+	
+	<!-- ========================== Modules ========================== -->
+	
+	<modules>
+		<module>../seava.mod.bd.db</module>
+		<module>../seava.mod.bd.domain</module>
+		<module>../seava.mod.bd.business.api</module>
+		<module>../seava.mod.bd.business</module>
+		<module>../seava.mod.bd.presenter</module>
+		<module>../seava.mod.bd.ui.extjs</module>
+		<module>../seava.mod.bd.i18n</module>
+		<module>../seava.mod.bd.data</module>
+	</modules>
+</project>

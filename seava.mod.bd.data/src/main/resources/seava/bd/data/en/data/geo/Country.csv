@@ -1,0 +1,72 @@
+code,name,iso2,iso3,hasRegions,active
+AZERBAIJAN,Azerbaijan,AZ,,false,false
+BANGLADESH,Bangladesh,BD,,false,false
+BELARUS,Belarus,BY,,false,false
+BELGIUM,Belgium,BE,,false,false
+BRAZIL,Brazil,BR,,false,false
+BULGARIA,Bulgaria,BG,,false,false
+CANADA,Canada,CA,,false,false
+CHILE,Chile,CL,,false,false
+CHINA,China,CN,,false,false
+COLOMBIA,Colombia,CO,,false,false
+CROATIA,Croatia,HR,,false,false
+DENMARK,Denmark,DK,,false,false
+ESTONIA,Estonia,EE,,false,false
+FINLAND,Finland,FI,,false,false
+FRANCE,France,FR,,false,false
+GEORGIA,Georgia,GE,,false,false
+GERMANY,Germany,DE,,false,false
+GREECE,Greece,GR,,false,false
+HONGKONG,Hong kong,HK,,false,false
+HUNGARY,Hungary,HU,,false,false
+INDIA,India,IN,,false,false
+INDONESIA,Indonesia,ID,,false,false
+IRELAND,Ireland,IE,,false,false
+ISRAEL,Israel,IL,,false,false
+ITALY,Italy,IT,,false,false
+JAPAN,Japan,JP,,false,false
+JORDAN,Jordan,JO,,false,false
+KAZAKHSTAN,Kazakhstan,KZ,,false,false
+KENYA,Kenya,KE,,false,false
+LATVIA,Latvia,LV,,false,false
+LEBANON,Lebanon,LB,,false,false
+LIECHTENSTEIN,Liechtenstein,LI,,false,false
+LITHUANIA,Lithuania,LT,,false,false
+LUXEMBOURG,Luxembourg,LU,,false,false
+MALAYSIA,Malaysia,MY,,false,false
+MEXICO,Mexico,MX,,false,false
+MYANMAR,Myanmar,MM,,false,false
+NEPAL,Nepal,NP,,false,false
+NETHERLANDS,Netherlands,NL,,false,false
+NEWZEALAND,New zealand,NZ,,false,false
+NICARAGUA,Nicaragua,NI,,false,false
+NORWAY,Norway,NO,,false,false
+PAKISTAN,Pakistan,PK,,false,false
+PANAMA,Panama,PA,,false,false
+PHILIPPINES,Philippines,PH,,false,false
+POLAND,Poland,PL,,false,false
+PORTUGAL,Portugal,PT,,false,false
+ROMANIA,Romania,RO,,true,true
+RUSSIA,Russian federation,RU,,false,false
+SAUDIARABIA,Saudi arabia,SA,,false,false
+SINGAPORE,Singapore,SG,,false,false
+SLOVAKIA,Slovakia,SK,,false,false
+SLOVENIA,Slovenia,SI,,false,false
+SOUTH-KOREA,"Korea, republic of",KR,,false,false
+SOUTHAFRICA,South africa,ZA,,false,false
+SPAIN,Spain,ES,,false,false
+SWEDEN,Sweden,SE,,false,false
+SWITZERLAND,Switzerland,CH,,false,false
+SYRIA,Syrian arab republic,SY,,false,false
+TAIWAN,"Taiwan, province of china",TW,,false,false
+THAILAND,Thailand,TH,,false,false
+TUNISIA,Tunisia,TN,,false,false
+TURKEY,Turkey,TR,,false,false
+TURKMENISTAN,Tturkmenistan,TM,,false,false
+UK,United kingdom,GB,,false,false
+UKRAINE,Ukraine,UA,,false,false
+URUGUAY,Uruguay,UY,,false,false
+US,United states,US,,false,true
+UZBEKISTAN,Uzbekistan,UZ,,false,false
+VENEZUELA,"Venezuela",VE,,false,false
+VIET NAM,Viet nam,VN,,false,false

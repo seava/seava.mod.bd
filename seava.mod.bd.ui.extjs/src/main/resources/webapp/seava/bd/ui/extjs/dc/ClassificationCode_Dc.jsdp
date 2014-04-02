@@ -1,0 +1,5 @@
+[
+	"seava.mod.bd/ds/seava.bd.ui.extjs.ds.ClassificationItem_Ds", 
+	"seava.mod.bd/lov/seava.bd.ui.extjs.lov.ClassificationItems_Lov", 
+	"seava.mod.bd/lov/seava.bd.ui.extjs.lov.ClassificationSystemsAll_Lov"
+]

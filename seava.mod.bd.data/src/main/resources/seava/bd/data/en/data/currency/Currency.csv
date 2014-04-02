@@ -1,0 +1,5 @@
+name,code,iso3,standardPrecision,active
+Euro,EUR,EUR,2,true
+Japanese Yen,JPY,JPY,0,false
+Romanian Leu,RON,RON,2,true
+US Dollar,USD,USD,2,true

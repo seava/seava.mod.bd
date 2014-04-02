@@ -1,0 +1,5 @@
+[
+	"seava.mod.bd/ds/seava.bd.ui.extjs.ds.Location_Ds", 
+	"seava.mod.bd/lov/seava.bd.ui.extjs.lov.Countries_Lov", 
+	"seava.mod.bd/lov/seava.bd.ui.extjs.lov.Regions_Lov"
+]

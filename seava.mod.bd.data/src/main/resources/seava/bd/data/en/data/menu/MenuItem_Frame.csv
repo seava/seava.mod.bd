@@ -1,0 +1,12 @@
+sequenceNo,name,title,frame,bundle,menuItem,active
+10,currency_Ui,Currencies,seava.bd.ui.extjs.frame.Currency_Ui,seava.mod.bd,bd-currency,true
+20,currencyXrateProvider_Ui,Currency exchange rate providers,seava.bd.ui.extjs.frame.CurrencyXrateProvider_Ui,seava.mod.bd,bd-currency,true
+30,currencyXRate_Ui,Currency exchange rates,seava.bd.ui.extjs.frame.CurrencyXRate_Ui,seava.mod.bd,bd-currency,true
+10,uomType_Ui,Unit of measure types,seava.bd.ui.extjs.frame.UomType_Ui,seava.mod.bd,bd-uom,true
+20,uom_Ui,Units of measure,seava.bd.ui.extjs.frame.Uom_Ui,seava.mod.bd,bd-uom,true
+30,uomConversion_Ui,Unit of measure conversions,seava.bd.ui.extjs.frame.UomConversion_Ui,seava.mod.bd,bd-uom,true
+10,classification_Ui,Classifications,seava.bd.ui.extjs.frame.Classification_Ui,seava.mod.bd,bd-classification,true
+10,country_Ui,Countries,seava.bd.ui.extjs.frame.Country_Ui,seava.mod.bd,bd-geo,true
+20,countryMD_Ui,Country with details,seava.bd.ui.extjs.frame.CountryMD_Ui,seava.mod.bd,bd-geo,true
+30,region_Ui,Regions,seava.bd.ui.extjs.frame.Region_Ui,seava.mod.bd,bd-geo,true
+40,regionMD_Ui,Region with details,seava.bd.ui.extjs.frame.RegionMD_Ui,seava.mod.bd,bd-geo,true

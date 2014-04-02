@@ -1,0 +1,8 @@
+code,name,category,active
+COUNT,Quantity count,other,true
+DATA-STORAGE,Electronic data storage,other,true
+FREQUENCY,Frequency,other,true
+LENGTH,Length/distance,length,true
+MASS,Mass measurement,mass,true
+TIME,Time periods,other,true
+VOLUME,Volume measurement,volume,true

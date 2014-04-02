@@ -1,0 +1,31 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	<persistence-unit name="seava_bd" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		
+		<!-- Declared -->
+		<class>seava.bd.domain.impl.classification.Classification</class>
+		<class>seava.bd.domain.impl.classification.ClassificationItem</class>
+		<class>seava.bd.domain.impl.classification.ClassificationSystem</class>
+		<class>seava.bd.domain.impl.currency.Currency</class>
+		<class>seava.bd.domain.impl.currency.CurrencyXRate</class>
+		<class>seava.bd.domain.impl.currency.CurrencyXRateAverage</class>
+		<class>seava.bd.domain.impl.currency.CurrencyXRateProvider</class>
+		<class>seava.bd.domain.impl.geo.City</class>
+		<class>seava.bd.domain.impl.geo.Country</class>
+		<class>seava.bd.domain.impl.geo.Location</class>
+		<class>seava.bd.domain.impl.geo.Region</class>
+		<class>seava.bd.domain.impl.uom.Uom</class>
+		<class>seava.bd.domain.impl.uom.UomConversion</class>
+		<class>seava.bd.domain.impl.uom.UomType</class>
+		
+		<!-- Dependencies -->
+		
+		<exclude-unlisted-classes>true</exclude-unlisted-classes> 
+		<properties>
+			<property name="eclipselink.weaving" value="static" />
+		</properties>
+	</persistence-unit>
+</persistence>

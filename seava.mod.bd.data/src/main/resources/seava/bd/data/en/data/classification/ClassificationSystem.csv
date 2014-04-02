@@ -1,0 +1,5 @@
+code,name,internal,active,refid
+NACE,European Classification of Economic Activity,false,true,D701E65E-494D-4EAC-ACA0-58BEE8393FA9
+NAICS1997,1997 NAICS U.S. Description,false,true,BE7D7D1A-BBDF-4D76-BA9B-21358BF332CD
+SIZE_EMPL,Size by number of employees,true,true,5BDDC818-7B76-4D0D-908B-7D6AF14EC9A6
+UNSPSC,United Nations Standard Products and Services Code,false,true,85ADF7AF-E8E6-408F-BCCC-E0C42239D657
