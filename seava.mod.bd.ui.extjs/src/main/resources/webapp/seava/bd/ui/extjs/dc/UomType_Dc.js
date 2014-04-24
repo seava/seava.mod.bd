@@ -56,12 +56,15 @@ Ext.define("seava.bd.ui.extjs.dc.UomType_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase"})
-		.addTextColumn({name:"name", dataIndex:"name", width:200})
+		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"name", dataIndex:"name", width:200, 
+			editor: { xtype:"textfield"}})
 		.addComboColumn({name:"category", dataIndex:"category", width:100, 
-			editor:{xtype:"combo", mode: 'local', selectOnFocus:true, triggerAction:'all', forceSelection:true, store:[ "length", "mass", "volume", "other"]}})
+			editor:{xtype:"combo", mode: 'local', triggerAction:'all', forceSelection:true, store:[ "length", "mass", "volume", "other"]}})
 		.addBooleanColumn({name:"active", dataIndex:"active"})
-		.addTextColumn({name:"description", dataIndex:"description", width:200})
+		.addTextColumn({name:"description", dataIndex:"description", width:200, 
+			editor: { xtype:"textfield"}})
 		.addDefaults();
 	}
 });

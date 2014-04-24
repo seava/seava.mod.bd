@@ -56,11 +56,11 @@ Ext.define("seava.bd.ui.extjs.dc.UomConversion_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addLov({name:"source", dataIndex:"source", xtype:"gridcolumn", width:100, 
-			editor:{xtype:"bd_Uoms_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addLov({name:"source", dataIndex:"source", width:100, xtype:"gridcolumn", 
+			editor:{xtype:"bd_Uoms_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "sourceId"} ]}})
-		.addLov({name:"target", dataIndex:"target", xtype:"gridcolumn", width:100, 
-			editor:{xtype:"bd_Uoms_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addLov({name:"target", dataIndex:"target", width:100, xtype:"gridcolumn", 
+			editor:{xtype:"bd_Uoms_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "targetId"} ]}})
 		.addNumberColumn({name:"multiplyWith", dataIndex:"multiplyWith", align:"right", decimals:6 })
 		.addNumberColumn({name:"divideTo", dataIndex:"divideTo", align:"right", decimals:6 })
@@ -80,9 +80,9 @@ Ext.define("seava.bd.ui.extjs.dc.UomConversion_Dc$CtxEditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"source", dataIndex:"source", width:100, caseRestriction:"uppercase", noEdit: true})
-		.addLov({name:"target", dataIndex:"target", xtype:"gridcolumn", width:100, 
-			editor:{xtype:"bd_Uoms_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addTextColumn({name:"source", dataIndex:"source", width:100, noEdit: true, caseRestriction:"uppercase"})
+		.addLov({name:"target", dataIndex:"target", width:100, xtype:"gridcolumn", 
+			editor:{xtype:"bd_Uoms_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "targetId"} ]}})
 		.addNumberColumn({name:"multiplyWith", dataIndex:"multiplyWith", align:"right", decimals:6 })
 		.addNumberColumn({name:"divideTo", dataIndex:"divideTo", align:"right", decimals:6 })

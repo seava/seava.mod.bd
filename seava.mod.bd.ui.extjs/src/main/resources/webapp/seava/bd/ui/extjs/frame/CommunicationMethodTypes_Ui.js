@@ -11,12 +11,11 @@ Ext.define("seava.bd.ui.extjs.frame.CommunicationMethodTypes_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("ctype", Ext.create(seava.bd.ui.extjs.dc.CommunicationMethodType_Dc,{multiEdit:true}))	
-		.addDc("targetRule", Ext.create(seava.ad.ui.extjs.dc.TargetRule_Dc,{multiEdit:true}))
+		this._getBuilder_().addDc("ctype", Ext.create(seava.bd.ui.extjs.dc.CommunicationMethodType_Dc,{multiEdit: true}))
+		.addDc("targetRule", Ext.create(seava.ad.ui.extjs.dc.TargetRule_Dc,{multiEdit: true}))
 		.linkDc("targetRule", "ctype",{fields:[
-			{childField:"sourceRefId", parentField:"refid"}]}
-		);
+					{childField:"sourceRefId", parentField:"refid"}]})
+		;
 	},
 
 	/**

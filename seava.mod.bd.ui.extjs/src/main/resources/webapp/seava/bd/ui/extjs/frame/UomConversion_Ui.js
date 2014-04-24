@@ -11,8 +11,7 @@ Ext.define("seava.bd.ui.extjs.frame.UomConversion_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("cnv", Ext.create(seava.bd.ui.extjs.dc.UomConversion_Dc,{multiEdit:true}))
+		this._getBuilder_().addDc("cnv", Ext.create(seava.bd.ui.extjs.dc.UomConversion_Dc,{multiEdit: true}))
 		;
 	},
 

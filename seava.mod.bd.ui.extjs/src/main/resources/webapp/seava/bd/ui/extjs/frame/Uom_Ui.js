@@ -11,12 +11,11 @@ Ext.define("seava.bd.ui.extjs.frame.Uom_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("uom", Ext.create(seava.bd.ui.extjs.dc.Uom_Dc,{multiEdit:true}))	
-		.addDc("cnv", Ext.create(seava.bd.ui.extjs.dc.UomConversion_Dc,{multiEdit:true}))
+		this._getBuilder_().addDc("uom", Ext.create(seava.bd.ui.extjs.dc.Uom_Dc,{multiEdit: true}))
+		.addDc("cnv", Ext.create(seava.bd.ui.extjs.dc.UomConversion_Dc,{multiEdit: true}))
 		.linkDc("cnv", "uom",{fields:[
-			{childField:"sourceId", parentField:"id"}, {childField:"source", parentField:"code", noFilter:true}]}
-		);
+					{childField:"sourceId", parentField:"id"}, {childField:"source", parentField:"code", noFilter:true}]})
+		;
 	},
 
 	/**

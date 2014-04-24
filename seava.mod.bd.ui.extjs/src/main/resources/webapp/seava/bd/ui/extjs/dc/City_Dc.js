@@ -78,8 +78,10 @@ Ext.define("seava.bd.ui.extjs.dc.City_Dc$CtxEditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"name", dataIndex:"name", width:200})
-		.addTextColumn({name:"description", dataIndex:"description", width:200})
+		.addTextColumn({name:"name", dataIndex:"name", width:200, 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"description", dataIndex:"description", width:200, 
+			editor: { xtype:"textfield"}})
 		.addBooleanColumn({name:"active", dataIndex:"active"})
 		.addTextColumn({name:"countryId", dataIndex:"countryId", hidden:true, width:100, noEdit: true})
 		.addTextColumn({name:"regionId", dataIndex:"regionId", hidden:true, width:100, noEdit: true})

@@ -11,8 +11,7 @@ Ext.define("seava.bd.ui.extjs.frame.CommunicationMethod_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("cmnc", Ext.create(seava.bd.ui.extjs.dc.CommunicationMethod_Dc,{}))
+		this._getBuilder_().addDc("cmnc", Ext.create(seava.bd.ui.extjs.dc.CommunicationMethod_Dc,{}))
 		;
 	},
 

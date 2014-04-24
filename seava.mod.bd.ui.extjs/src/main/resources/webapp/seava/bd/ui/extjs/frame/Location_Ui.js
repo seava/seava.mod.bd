@@ -11,8 +11,7 @@ Ext.define("seava.bd.ui.extjs.frame.Location_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("location", Ext.create(seava.bd.ui.extjs.dc.Location_Dc,{}))
+		this._getBuilder_().addDc("location", Ext.create(seava.bd.ui.extjs.dc.Location_Dc,{}))
 		;
 	},
 

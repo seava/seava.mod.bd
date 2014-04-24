@@ -11,8 +11,7 @@ Ext.define("seava.bd.ui.extjs.frame.UomType_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("type", Ext.create(seava.bd.ui.extjs.dc.UomType_Dc,{multiEdit:true}))
+		this._getBuilder_().addDc("type", Ext.create(seava.bd.ui.extjs.dc.UomType_Dc,{multiEdit: true}))
 		;
 	},
 

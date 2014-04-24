@@ -11,8 +11,7 @@ Ext.define("seava.bd.ui.extjs.frame.CurrencyXrateProvider_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("prvd", Ext.create(seava.bd.ui.extjs.dc.CurrencyXRateProvider_Dc,{multiEdit:true}))
+		this._getBuilder_().addDc("prvd", Ext.create(seava.bd.ui.extjs.dc.CurrencyXRateProvider_Dc,{multiEdit: true}))
 		;
 	},
 

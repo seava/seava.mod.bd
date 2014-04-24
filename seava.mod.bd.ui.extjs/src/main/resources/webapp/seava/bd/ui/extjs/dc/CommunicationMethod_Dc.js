@@ -84,14 +84,16 @@ Ext.define("seava.bd.ui.extjs.dc.CommunicationMethod_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addLov({name:"type", dataIndex:"type", xtype:"gridcolumn", width:200, 
-			editor:{xtype:"bd_CommunicationMethodTypes_Lov", selectOnFocus:true,
+		.addLov({name:"type", dataIndex:"type", width:200, xtype:"gridcolumn", 
+			editor:{xtype:"bd_CommunicationMethodTypes_Lov",
 				retFieldMapping: [{lovField:"id", dsField: "typeId"} ],
 				filterFieldMapping: [{lovField:"targetAlias", dsField: "targetAlias"}, {lovField:"targetType", dsField: "targetType"} ]}})
-		.addTextColumn({name:"value", dataIndex:"value", width:200})
+		.addTextColumn({name:"value", dataIndex:"value", width:200, 
+			editor: { xtype:"textfield"}})
 		.addDateColumn({name:"validFrom", dataIndex:"validFrom", _mask_: Masks.DATE })
 		.addDateColumn({name:"validTo", dataIndex:"validTo", _mask_: Masks.DATE })
-		.addTextColumn({name:"notes", dataIndex:"notes", width:200})
+		.addTextColumn({name:"notes", dataIndex:"notes", width:200, 
+			editor: { xtype:"textfield"}})
 		.addTextColumn({name:"targetRefid", dataIndex:"targetRefid", hidden:true, width:100, noEdit: true})
 		.addTextColumn({name:"targetAlias", dataIndex:"targetAlias", hidden:true, width:100, noEdit: true})
 		.addTextColumn({name:"targetType", dataIndex:"targetType", hidden:true, width:200, noEdit: true})

@@ -11,8 +11,7 @@ Ext.define("seava.bd.ui.extjs.frame.Country_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("country", Ext.create(seava.bd.ui.extjs.dc.Country_Dc,{multiEdit:true}))
+		this._getBuilder_().addDc("country", Ext.create(seava.bd.ui.extjs.dc.Country_Dc,{ multiEdit:true}))
 		;
 	},
 

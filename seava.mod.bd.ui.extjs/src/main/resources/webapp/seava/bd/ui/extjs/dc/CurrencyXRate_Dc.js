@@ -58,17 +58,17 @@ Ext.define("seava.bd.ui.extjs.dc.CurrencyXRate_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addLov({name:"source", dataIndex:"source", xtype:"gridcolumn", width:120, 
-			editor:{xtype:"bd_Currencies_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addLov({name:"source", dataIndex:"source", width:120, xtype:"gridcolumn", 
+			editor:{xtype:"bd_Currencies_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "sourceId"} ]}})
-		.addLov({name:"target", dataIndex:"target", xtype:"gridcolumn", width:120, 
-			editor:{xtype:"bd_Currencies_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addLov({name:"target", dataIndex:"target", width:120, xtype:"gridcolumn", 
+			editor:{xtype:"bd_Currencies_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "targetId"} ]}})
 		.addDateColumn({name:"validAt", dataIndex:"validAt", _mask_: Masks.DATE })
 		.addNumberColumn({name:"value", dataIndex:"value", align:"right", decimals:6 })
 		.addTextColumn({name:"providerId", dataIndex:"providerId", hidden:true, width:100, noEdit: true})
-		.addLov({name:"provider", dataIndex:"provider", xtype:"gridcolumn", width:120, 
-			editor:{xtype:"bd_CurrencyXRateProviders_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addLov({name:"provider", dataIndex:"provider", width:120, xtype:"gridcolumn", 
+			editor:{xtype:"bd_CurrencyXRateProviders_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "providerId"} ]}})
 		.addDefaults();
 	}

@@ -101,13 +101,18 @@ Ext.define("seava.bd.ui.extjs.dc.Country_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase"})
-		.addTextColumn({name:"name", dataIndex:"name", width:200})
-		.addTextColumn({name:"iso2", dataIndex:"iso2", width:50, maxLength:2, caseRestriction:"uppercase"})
-		.addTextColumn({name:"iso3", dataIndex:"iso3", width:50, maxLength:3, caseRestriction:"uppercase"})
+		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"name", dataIndex:"name", width:200, 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"iso2", dataIndex:"iso2", width:50, maxLength:2, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"iso3", dataIndex:"iso3", width:50, maxLength:3, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
 		.addBooleanColumn({name:"hasRegions", dataIndex:"hasRegions"})
 		.addBooleanColumn({name:"active", dataIndex:"active"})
-		.addTextColumn({name:"description", dataIndex:"description", width:200})
+		.addTextColumn({name:"description", dataIndex:"description", width:200, 
+			editor: { xtype:"textfield"}})
 		.addDefaults();
 	}
 });

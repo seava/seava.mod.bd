@@ -55,10 +55,12 @@ Ext.define("seava.bd.ui.extjs.dc.CommunicationMethodType_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"name", dataIndex:"name", width:200, allowBlank: false})
-		.addTextColumn({name:"description", dataIndex:"description", width:200})
-		.addComboColumn({name:"type", dataIndex:"type", width:60, 
-			editor:{xtype:"combo", mode: 'local', selectOnFocus:true, allowBlank:false, triggerAction:'all', forceSelection:true, store:[ "email", "messenger", "phone", "url", "other"]}})
+		.addTextColumn({name:"name", dataIndex:"name", width:200, allowBlank: false, 
+			editor: { xtype:"textfield", allowBlank:false}})
+		.addTextColumn({name:"description", dataIndex:"description", width:200, 
+			editor: { xtype:"textfield"}})
+		.addComboColumn({name:"type", dataIndex:"type", width:60, allowBlank: false, 
+			editor:{xtype:"combo", mode: 'local', allowBlank:false, triggerAction:'all', forceSelection:true, store:[ "email", "messenger", "phone", "url", "other"]}})
 		.addBooleanColumn({name:"active", dataIndex:"active"})
 		.addDefaults();
 	}

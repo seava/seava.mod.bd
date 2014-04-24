@@ -61,11 +61,14 @@ Ext.define("seava.bd.ui.extjs.dc.ClassificationCode_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase"})
-		.addTextColumn({name:"name", dataIndex:"name", width:200})
-		.addTextColumn({name:"description", dataIndex:"description", width:200})
-		.addLov({name:"classSystem", dataIndex:"classSystem", xtype:"gridcolumn", width:120, 
-			editor:{xtype:"bd_ClassificationSystemsAll_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"name", dataIndex:"name", width:200, 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"description", dataIndex:"description", width:200, 
+			editor: { xtype:"textfield"}})
+		.addLov({name:"classSystem", dataIndex:"classSystem", width:120, xtype:"gridcolumn", 
+			editor:{xtype:"bd_ClassificationSystemsAll_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "classSystemId"} ]}})
 		.addBooleanColumn({name:"active", dataIndex:"active"})
 		.addTextColumn({name:"classSystemId", dataIndex:"classSystemId", hidden:true, width:100, noEdit: true})

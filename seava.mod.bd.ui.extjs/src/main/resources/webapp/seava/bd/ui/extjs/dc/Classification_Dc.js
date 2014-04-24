@@ -53,13 +53,13 @@ Ext.define("seava.bd.ui.extjs.dc.Classification_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addLov({name:"system", dataIndex:"system", xtype:"gridcolumn", width:150, 
-			editor:{xtype:"bd_ClassificationSystems_Lov", selectOnFocus:true, allowBlank:false, caseRestriction:"uppercase",
+		.addLov({name:"system", dataIndex:"system", width:150, allowBlank: false, xtype:"gridcolumn", 
+			editor:{xtype:"bd_ClassificationSystems_Lov", allowBlank:false, caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "systemId"} ,{lovField:"name", dsField: "systemName"} ],
 				filterFieldMapping: [{lovField:"targetAlias", dsField: "targetAlias"}, {lovField:"targetType", dsField: "targetType"}, {lovField:"active", value: "true"} ]}})
 		.addTextColumn({name:"systemName", dataIndex:"systemName", hidden:true, width:300, noEdit: true})
-		.addLov({name:"item", dataIndex:"item", xtype:"gridcolumn", width:150, 
-			editor:{xtype:"bd_ClassificationItems_Lov", selectOnFocus:true, allowBlank:false, caseRestriction:"uppercase",
+		.addLov({name:"item", dataIndex:"item", width:150, allowBlank: false, xtype:"gridcolumn", 
+			editor:{xtype:"bd_ClassificationItems_Lov", allowBlank:false, caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "itemId"} ,{lovField:"name", dsField: "itemName"} ],
 				filterFieldMapping: [{lovField:"classSystemId", dsField: "systemId"}, {lovField:"active", value: "true"} ]}})
 		.addTextColumn({name:"itemName", dataIndex:"itemName", width:280, noEdit: true})

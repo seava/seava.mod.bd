@@ -79,13 +79,16 @@ Ext.define("seava.bd.ui.extjs.dc.Uom_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"code", dataIndex:"code", width:100, caseRestriction:"uppercase"})
-		.addTextColumn({name:"name", dataIndex:"name", width:150})
-		.addLov({name:"type", dataIndex:"type", xtype:"gridcolumn", width:100, 
-			editor:{xtype:"bd_UomTypes_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addTextColumn({name:"code", dataIndex:"code", width:100, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"name", dataIndex:"name", width:150, 
+			editor: { xtype:"textfield"}})
+		.addLov({name:"type", dataIndex:"type", width:100, xtype:"gridcolumn", 
+			editor:{xtype:"bd_UomTypes_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "typeId"} ]}})
 		.addBooleanColumn({name:"active", dataIndex:"active"})
-		.addTextColumn({name:"description", dataIndex:"description", width:150})
+		.addTextColumn({name:"description", dataIndex:"description", width:150, 
+			editor: { xtype:"textfield"}})
 		.addTextColumn({name:"typeId", dataIndex:"typeId", hidden:true, width:100, noEdit: true})
 		.addDefaults();
 	}

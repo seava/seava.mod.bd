@@ -11,12 +11,11 @@ Ext.define("seava.bd.ui.extjs.frame.CountryMD_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("country", Ext.create(seava.bd.ui.extjs.dc.Country_Dc,{}))	
-		.addDc("region", Ext.create(seava.bd.ui.extjs.dc.Region_Dc,{multiEdit:true}))
+		this._getBuilder_().addDc("country", Ext.create(seava.bd.ui.extjs.dc.Country_Dc,{}))
+		.addDc("region", Ext.create(seava.bd.ui.extjs.dc.Region_Dc,{ multiEdit:true}))
 		.linkDc("region", "country",{fields:[
-			{childField:"countryId", parentField:"id"}, {childField:"country", parentField:"code", noFilter:true}]}
-		);
+					{childField:"countryId", parentField:"id"}, {childField:"country", parentField:"code", noFilter:true}]})
+		;
 	},
 
 	/**

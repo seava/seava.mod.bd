@@ -11,13 +11,12 @@ Ext.define("seava.bd.ui.extjs.frame.Classification_Ui", {
 	 * Data-controls definition
 	 */
 	_defineDcs_: function() {
-		this._getBuilder_()	
-		.addDc("classsys", Ext.create(seava.bd.ui.extjs.dc.ClassificationSystem_Dc,{multiEdit:true}))	
-		.addDc("classcode", Ext.create(seava.bd.ui.extjs.dc.ClassificationCode_Dc,{multiEdit:true}))	
-		.addDc("targetRule", Ext.create(seava.ad.ui.extjs.dc.TargetRule_Dc,{multiEdit:true}))
+		this._getBuilder_().addDc("classsys", Ext.create(seava.bd.ui.extjs.dc.ClassificationSystem_Dc,{multiEdit: true}))
+		.addDc("classcode", Ext.create(seava.bd.ui.extjs.dc.ClassificationCode_Dc,{multiEdit: true}))
+		.addDc("targetRule", Ext.create(seava.ad.ui.extjs.dc.TargetRule_Dc,{multiEdit: true}))
 		.linkDc("targetRule", "classsys",{fields:[
-			{childField:"sourceRefId", parentField:"refid"}]}
-		);
+					{childField:"sourceRefId", parentField:"refid"}]})
+		;
 	},
 
 	/**
@@ -35,7 +34,7 @@ Ext.define("seava.bd.ui.extjs.frame.Classification_Ui", {
 		.addPanel({name:"canvasClasscode", _hasTitle_:true, preventHeader:true, isCanvas:true, layout:"border", defaults:{split:true}}).addPanel({name:"_main_with_toc_", layout:"border", id:Ext.id(), defaults:{split:true}, header:false,
 					listeners:{ activate:{scope:this,fn:function(p){p.doLayout(false,true); this.fireEvent('canvaschange', p);  } }}
 			})
-		.addToc(["canvasClasssys","canvasClasscode"]);
+		.addToc(["canvasClasssys:classsys","canvasClasscode:classcode"]);
 		this._mainViewName_  = "_main_with_toc_";
 		;
 	},

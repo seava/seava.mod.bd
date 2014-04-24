@@ -85,9 +85,12 @@ Ext.define("seava.bd.ui.extjs.dc.Region_Dc$EditListContext", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase"})
-		.addTextColumn({name:"name", dataIndex:"name", width:200})
-		.addTextColumn({name:"iso", dataIndex:"iso", width:50, maxLength:32, caseRestriction:"uppercase"})
+		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"name", dataIndex:"name", width:200, 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"iso", dataIndex:"iso", width:50, maxLength:32, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
 		.addBooleanColumn({name:"active", dataIndex:"active"})
 		.addTextColumn({name:"countryId", dataIndex:"countryId", hidden:true, width:100, noEdit: true})
 		.addDefaults();
@@ -106,15 +109,18 @@ Ext.define("seava.bd.ui.extjs.dc.Region_Dc$EditList", {
 	 */
 	_defineColumns_: function() {
 		this._getBuilder_()	
-		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase"})
-		.addTextColumn({name:"name", dataIndex:"name", width:200})
-		.addTextColumn({name:"iso", dataIndex:"iso", width:50, maxLength:32, caseRestriction:"uppercase"})
+		.addTextColumn({name:"code", dataIndex:"code", width:120, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"name", dataIndex:"name", width:200, 
+			editor: { xtype:"textfield"}})
+		.addTextColumn({name:"iso", dataIndex:"iso", width:50, maxLength:32, caseRestriction:"uppercase", 
+			editor: { xtype:"textfield"}})
 		.addTextColumn({name:"countryId", dataIndex:"countryId", hidden:true, width:100, noEdit: true})
-		.addLov({name:"country", dataIndex:"country", xtype:"gridcolumn", width:120, 
-			editor:{xtype:"bd_Countries_Lov", selectOnFocus:true, caseRestriction:"uppercase",
+		.addLov({name:"country", dataIndex:"country", width:120, xtype:"gridcolumn", 
+			editor:{xtype:"bd_Countries_Lov", caseRestriction:"uppercase",
 				retFieldMapping: [{lovField:"id", dsField: "countryId"} ],
 				filterFieldMapping: [{lovField:"active", value: "true"} ]}})
-		.addTextColumn({name:"countryIso2", dataIndex:"countryIso2", hidden:true, width:50, maxLength:2, caseRestriction:"uppercase", noEdit: true})
+		.addTextColumn({name:"countryIso2", dataIndex:"countryIso2", hidden:true, width:50, noEdit: true, maxLength:2, caseRestriction:"uppercase"})
 		.addBooleanColumn({name:"active", dataIndex:"active"})
 		.addDefaults();
 	}
