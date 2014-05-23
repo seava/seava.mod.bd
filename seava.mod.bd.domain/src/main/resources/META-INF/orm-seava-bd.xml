@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings
+	xsi:schemaLocation="http://www.eclipse.org/eclipselink/xsds/persistence/orm xsd/eclipselink_orm_1_0.xsd"
+	xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="1.0">
+	
+	<entity class="seava.bd.domain.impl.classification.Classification" />
+	<entity class="seava.bd.domain.impl.classification.ClassificationItem" />
+	<entity class="seava.bd.domain.impl.classification.ClassificationSystem" />
+	<entity class="seava.bd.domain.impl.contact.CommunicationMethod" />
+	<entity class="seava.bd.domain.impl.contact.CommunicationMethodType" />
+	<entity class="seava.bd.domain.impl.currency.Currency" />
+	<entity class="seava.bd.domain.impl.currency.CurrencyXRate" />
+	<entity class="seava.bd.domain.impl.currency.CurrencyXRateAverage" />
+	<entity class="seava.bd.domain.impl.currency.CurrencyXRateProvider" />
+	<entity class="seava.bd.domain.impl.geo.City" />
+	<entity class="seava.bd.domain.impl.geo.Country" />
+	<entity class="seava.bd.domain.impl.geo.Location" />
+	<entity class="seava.bd.domain.impl.geo.Region" />
+	<entity class="seava.bd.domain.impl.uom.Uom" />
+	<entity class="seava.bd.domain.impl.uom.UomConversion" />
+	<entity class="seava.bd.domain.impl.uom.UomType" />
+</entity-mappings>
