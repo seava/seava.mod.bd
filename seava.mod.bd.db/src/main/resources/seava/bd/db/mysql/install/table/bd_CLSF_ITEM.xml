@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
 		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
 
-	<changeSet author="nan21" id="TBL-bd_CLSF_ITEM">
+	<changeSet author="seava" id="TBL-bd_CLSF_ITEM">
 		<createTable tableName="bd_CLSF_ITEM">
 			<column name="ACTIVE" type="int(1)">
 				<constraints nullable="false"/>
@@ -45,21 +45,21 @@
 		</createTable>
 	</changeSet>
 
-	<changeSet author="nan21" id="PK-bd_CLSF_ITEM">
+	<changeSet author="seava" id="PK-bd_CLSF_ITEM">
 		<addPrimaryKey 
 			constraintName="PK_bd_CLSF_ITEM"
 			tableName="bd_CLSF_ITEM"
 			columnNames="ID"/>
 	</changeSet>
 	
-	<changeSet author="nan21" id="UK-bd_CLSF_ITEM-1">
+	<changeSet author="seava" id="UK-bd_CLSF_ITEM-1">
 		<addUniqueConstraint
 			constraintName="UK_bd_CLSF_ITEM1"
 			tableName="bd_CLSF_ITEM"
 			columnNames="CLIENTID,CLASSSYSTEM_ID,CODE"/>
 	</changeSet>
 	
-	<changeSet author="nan21" id="UK-bd_CLSF_ITEM-2">
+	<changeSet author="seava" id="UK-bd_CLSF_ITEM-2">
 		<addUniqueConstraint
 			constraintName="UK_bd_CLSF_ITEM2"
 			tableName="bd_CLSF_ITEM"

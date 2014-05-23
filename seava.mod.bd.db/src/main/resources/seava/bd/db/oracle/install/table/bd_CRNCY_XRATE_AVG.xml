@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
 		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
 
-	<changeSet author="nan21" id="TBL-bd_CRNCY_XRATE_AVG">
+	<changeSet author="seava" id="TBL-bd_CRNCY_XRATE_AVG">
 		<createTable tableName="bd_CRNCY_XRATE_AVG">
 			<column name="ACTIVE" type="number(1)">
 				<constraints nullable="false"/>
@@ -53,7 +53,7 @@
 		</createTable>
 	</changeSet>
 
-	<changeSet author="nan21" id="PK-bd_CRNCY_XRATE_AVG">
+	<changeSet author="seava" id="PK-bd_CRNCY_XRATE_AVG">
 		<addPrimaryKey 
 			constraintName="PK_bd_CRNCY_XRATE_AVG"
 			tableName="bd_CRNCY_XRATE_AVG"

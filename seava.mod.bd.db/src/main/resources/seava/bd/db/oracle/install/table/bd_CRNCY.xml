@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
 		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
 
-	<changeSet author="nan21" id="TBL-bd_CRNCY">
+	<changeSet author="seava" id="TBL-bd_CRNCY">
 		<createTable tableName="bd_CRNCY">
 			<column name="ACTIVE" type="number(1)">
 				<constraints nullable="false"/>
@@ -49,21 +49,21 @@
 		</createTable>
 	</changeSet>
 
-	<changeSet author="nan21" id="PK-bd_CRNCY">
+	<changeSet author="seava" id="PK-bd_CRNCY">
 		<addPrimaryKey 
 			constraintName="PK_bd_CRNCY"
 			tableName="bd_CRNCY"
 			columnNames="ID"/>
 	</changeSet>
 	
-	<changeSet author="nan21" id="UK-bd_CRNCY-1">
+	<changeSet author="seava" id="UK-bd_CRNCY-1">
 		<addUniqueConstraint
 			constraintName="UK_bd_CRNCY1"
 			tableName="bd_CRNCY"
 			columnNames="CLIENTID,CODE"/>
 	</changeSet>
 	
-	<changeSet author="nan21" id="UK-bd_CRNCY-2">
+	<changeSet author="seava" id="UK-bd_CRNCY-2">
 		<addUniqueConstraint
 			constraintName="UK_bd_CRNCY2"
 			tableName="bd_CRNCY"
