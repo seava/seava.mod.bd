@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.ClassificationSystem_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_ClassificationSystem_Ds"
+	},
+	
+	
 	validations: [
 			{field: "name", type: 'presence'}
 	],

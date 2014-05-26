@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.ClassificationSystemAllLov_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_ClassificationSystemAllLov_Ds"
+	},
+	
+	
 	fields: [
 		{name:"id", type:"string"},
 		{name:"clientId", type:"string"},

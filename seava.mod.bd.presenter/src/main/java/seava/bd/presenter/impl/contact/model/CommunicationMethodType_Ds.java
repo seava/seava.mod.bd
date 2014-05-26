@@ -15,6 +15,9 @@ import seava.j4e.presenter.impl.model.AbstractType_Ds;
 public class CommunicationMethodType_Ds
 		extends
 			AbstractType_Ds<CommunicationMethodType> {
+
+	public static final String ALIAS = "bd_CommunicationMethodType_Ds";
+
 	public static final String f_type = "type";
 
 	@DsField

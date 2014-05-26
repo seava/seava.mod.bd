@@ -15,6 +15,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCode_Ds;
 public class ClassificationSystem_Ds
 		extends
 			AbstractTypeWithCode_Ds<ClassificationSystem> {
+
+	public static final String ALIAS = "bd_ClassificationSystem_Ds";
+
 	public static final String f_internal = "internal";
 
 	@DsField

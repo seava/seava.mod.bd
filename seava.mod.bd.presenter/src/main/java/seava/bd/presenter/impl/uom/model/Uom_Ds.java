@@ -18,6 +18,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCode_Ds;
 @Ds(entity = Uom.class, sort = {@SortField(field = Uom_Ds.f_code)})
 @RefLookups({@RefLookup(refId = Uom_Ds.f_typeId, namedQuery = UomType.NQ_FIND_BY_CODE, params = {@Param(name = "code", field = Uom_Ds.f_type)})})
 public class Uom_Ds extends AbstractTypeWithCode_Ds<Uom> {
+
+	public static final String ALIAS = "bd_Uom_Ds";
+
 	public static final String f_typeId = "typeId";
 	public static final String f_type = "type";
 

@@ -13,6 +13,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCode_Ds;
 
 @Ds(entity = Country.class, sort = {@SortField(field = Country_Ds.f_code)})
 public class Country_Ds extends AbstractTypeWithCode_Ds<Country> {
+
+	public static final String ALIAS = "bd_Country_Ds";
+
 	public static final String f_iso2 = "iso2";
 	public static final String f_iso3 = "iso3";
 	public static final String f_hasRegions = "hasRegions";

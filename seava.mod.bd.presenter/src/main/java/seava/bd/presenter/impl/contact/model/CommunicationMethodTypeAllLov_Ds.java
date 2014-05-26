@@ -15,6 +15,8 @@ public class CommunicationMethodTypeAllLov_Ds
 		extends
 			AbstractTypeLov_Ds<CommunicationMethodType> {
 
+	public static final String ALIAS = "bd_CommunicationMethodTypeAllLov_Ds";
+
 	public CommunicationMethodTypeAllLov_Ds() {
 		super();
 	}

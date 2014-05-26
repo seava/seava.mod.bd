@@ -13,6 +13,8 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCodeLov_Ds;
 @Ds(entity = Uom.class, jpqlWhere = " e.type.category = 'volume' ", sort = {@SortField(field = UomVolumeLov_Ds.f_code)})
 public class UomVolumeLov_Ds extends AbstractTypeWithCodeLov_Ds<Uom> {
 
+	public static final String ALIAS = "bd_UomVolumeLov_Ds";
+
 	public UomVolumeLov_Ds() {
 		super();
 	}

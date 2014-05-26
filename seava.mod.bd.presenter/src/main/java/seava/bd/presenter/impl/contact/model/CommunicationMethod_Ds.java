@@ -20,6 +20,9 @@ import seava.j4e.presenter.impl.model.AbstractAuditable_Ds;
 public class CommunicationMethod_Ds
 		extends
 			AbstractAuditable_Ds<CommunicationMethod> {
+
+	public static final String ALIAS = "bd_CommunicationMethod_Ds";
+
 	public static final String f_value = "value";
 	public static final String f_validFrom = "validFrom";
 	public static final String f_validTo = "validTo";

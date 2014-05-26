@@ -9,7 +9,7 @@
 	
 	<!-- ==================== UomType ==================== -->
 		
-	<bean id="UomType_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_UomType_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.uom.model.UomType_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.uom.UomType"/>
@@ -17,7 +17,7 @@
 	
 	<!-- ==================== UomTypeLov ==================== -->
 		
-	<bean id="UomTypeLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_UomTypeLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.uom.model.UomTypeLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.uom.UomType"/>
@@ -26,7 +26,7 @@
 	
 	<!-- ==================== Uom ==================== -->
 		
-	<bean id="Uom_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_Uom_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.uom.model.Uom_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.uom.Uom"/>
@@ -34,7 +34,7 @@
 	
 	<!-- ==================== UomLov ==================== -->
 		
-	<bean id="UomLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_UomLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.uom.model.UomLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.uom.Uom"/>
@@ -43,7 +43,7 @@
 	
 	<!-- ==================== UomMassLov ==================== -->
 		
-	<bean id="UomMassLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_UomMassLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.uom.model.UomMassLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.uom.Uom"/>
@@ -52,7 +52,7 @@
 	
 	<!-- ==================== UomLengthLov ==================== -->
 		
-	<bean id="UomLengthLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_UomLengthLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.uom.model.UomLengthLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.uom.Uom"/>
@@ -61,7 +61,7 @@
 	
 	<!-- ==================== UomVolumeLov ==================== -->
 		
-	<bean id="UomVolumeLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_UomVolumeLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.uom.model.UomVolumeLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.uom.Uom"/>
@@ -70,7 +70,7 @@
 	
 	<!-- ==================== UomConversion ==================== -->
 		
-	<bean id="UomConversion_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_UomConversion_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.uom.model.UomConversion_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.uom.UomConversion"/>

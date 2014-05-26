@@ -9,7 +9,7 @@
 	
 	<!-- ==================== Currency ==================== -->
 		
-	<bean id="Currency_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_Currency_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.currency.model.Currency_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.currency.Currency"/>
@@ -17,7 +17,7 @@
 	
 	<!-- ==================== CurrencyLov ==================== -->
 		
-	<bean id="CurrencyLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CurrencyLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.currency.model.CurrencyLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.currency.Currency"/>
@@ -26,7 +26,7 @@
 	
 	<!-- ==================== CurrencyXRateProvider ==================== -->
 		
-	<bean id="CurrencyXRateProvider_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CurrencyXRateProvider_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.currency.model.CurrencyXRateProvider_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.currency.CurrencyXRateProvider"/>
@@ -34,7 +34,7 @@
 	
 	<!-- ==================== CurrencyXRateProviderLov ==================== -->
 		
-	<bean id="CurrencyXRateProviderLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CurrencyXRateProviderLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.currency.model.CurrencyXRateProviderLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.currency.CurrencyXRateProvider"/>
@@ -43,7 +43,7 @@
 	
 	<!-- ==================== CurrencyXRate ==================== -->
 		
-	<bean id="CurrencyXRate_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CurrencyXRate_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.currency.model.CurrencyXRate_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.currency.CurrencyXRate"/>
@@ -51,7 +51,7 @@
 	
 	<!-- ==================== CurrencyXRateAverage ==================== -->
 		
-	<bean id="CurrencyXRateAverage_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CurrencyXRateAverage_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.currency.model.CurrencyXRateAverage_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.currency.CurrencyXRateAverage"/>

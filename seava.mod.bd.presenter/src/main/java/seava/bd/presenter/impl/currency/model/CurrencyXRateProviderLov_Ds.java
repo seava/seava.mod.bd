@@ -15,6 +15,8 @@ public class CurrencyXRateProviderLov_Ds
 		extends
 			AbstractTypeWithCodeLov_Ds<CurrencyXRateProvider> {
 
+	public static final String ALIAS = "bd_CurrencyXRateProviderLov_Ds";
+
 	public CurrencyXRateProviderLov_Ds() {
 		super();
 	}

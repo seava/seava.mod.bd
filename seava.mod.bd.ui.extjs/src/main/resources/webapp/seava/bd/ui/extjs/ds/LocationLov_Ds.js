@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.LocationLov_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_LocationLov_Ds"
+	},
+	
+	
 	fields: [
 		{name:"targetRefid", type:"string"},
 		{name:"asString", type:"string"},

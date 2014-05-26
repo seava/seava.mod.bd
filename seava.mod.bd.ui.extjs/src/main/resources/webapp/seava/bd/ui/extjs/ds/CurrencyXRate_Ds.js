@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.CurrencyXRate_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_CurrencyXRate_Ds"
+	},
+	
+	
 	fields: [
 		{name:"validAt", type:"date", dateFormat:Main.MODEL_DATE_FORMAT},
 		{name:"value", type:"float", useNull:true},

@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.CommunicationMethod_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_CommunicationMethod_Ds"
+	},
+	
+	
 	validations: [
 		{field: "type", type: 'presence'},
 		{field: "value", type: 'presence'},

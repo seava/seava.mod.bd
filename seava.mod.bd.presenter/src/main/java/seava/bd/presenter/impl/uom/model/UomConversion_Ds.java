@@ -20,6 +20,9 @@ import seava.j4e.presenter.impl.model.AbstractAuditable_Ds;
 		@RefLookup(refId = UomConversion_Ds.f_sourceId, namedQuery = Uom.NQ_FIND_BY_CODE, params = {@Param(name = "code", field = UomConversion_Ds.f_source)}),
 		@RefLookup(refId = UomConversion_Ds.f_targetId, namedQuery = Uom.NQ_FIND_BY_CODE, params = {@Param(name = "code", field = UomConversion_Ds.f_target)})})
 public class UomConversion_Ds extends AbstractAuditable_Ds<UomConversion> {
+
+	public static final String ALIAS = "bd_UomConversion_Ds";
+
 	public static final String f_multiplyWith = "multiplyWith";
 	public static final String f_divideTo = "divideTo";
 	public static final String f_sourceId = "sourceId";

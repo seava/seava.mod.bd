@@ -15,6 +15,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCodeLov_Ds;
 public class ClassificationSystemLov_Ds
 		extends
 			AbstractTypeWithCodeLov_Ds<ClassificationSystem> {
+
+	public static final String ALIAS = "bd_ClassificationSystemLov_Ds";
+
 	public static final String f_targetAlias = "targetAlias";
 	public static final String f_targetType = "targetType";
 

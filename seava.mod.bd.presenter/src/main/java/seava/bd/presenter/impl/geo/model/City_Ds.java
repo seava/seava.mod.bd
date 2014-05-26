@@ -23,6 +23,9 @@ import seava.j4e.presenter.impl.model.AbstractType_Ds;
 				@Param(name = "countryId", field = City_Ds.f_countryId),
 				@Param(name = "code", field = City_Ds.f_region)})})
 public class City_Ds extends AbstractType_Ds<City> {
+
+	public static final String ALIAS = "bd_City_Ds";
+
 	public static final String f_countryId = "countryId";
 	public static final String f_country = "country";
 	public static final String f_regionId = "regionId";

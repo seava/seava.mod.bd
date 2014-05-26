@@ -15,6 +15,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeLov_Ds;
 public class CommunicationMethodTypeLov_Ds
 		extends
 			AbstractTypeLov_Ds<CommunicationMethodType> {
+
+	public static final String ALIAS = "bd_CommunicationMethodTypeLov_Ds";
+
 	public static final String f_targetAlias = "targetAlias";
 	public static final String f_targetType = "targetType";
 

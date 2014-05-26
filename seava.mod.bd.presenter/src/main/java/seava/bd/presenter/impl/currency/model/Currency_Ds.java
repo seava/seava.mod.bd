@@ -13,6 +13,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCode_Ds;
 
 @Ds(entity = Currency.class, sort = {@SortField(field = Currency_Ds.f_code)})
 public class Currency_Ds extends AbstractTypeWithCode_Ds<Currency> {
+
+	public static final String ALIAS = "bd_Currency_Ds";
+
 	public static final String f_iso3 = "iso3";
 	public static final String f_standardPrecision = "standardPrecision";
 	public static final String f_symbol = "symbol";

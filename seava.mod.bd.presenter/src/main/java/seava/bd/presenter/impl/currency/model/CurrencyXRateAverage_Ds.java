@@ -25,6 +25,9 @@ import seava.j4e.presenter.impl.model.AbstractAuditable_Ds;
 public class CurrencyXRateAverage_Ds
 		extends
 			AbstractAuditable_Ds<CurrencyXRateAverage> {
+
+	public static final String ALIAS = "bd_CurrencyXRateAverage_Ds";
+
 	public static final String f_validFrom = "validFrom";
 	public static final String f_validTo = "validTo";
 	public static final String f_value = "value";

@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.CurrencyLov_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_CurrencyLov_Ds"
+	},
+	
+	
 	fields: [
 		{name:"id", type:"string"},
 		{name:"clientId", type:"string"},

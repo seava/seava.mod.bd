@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.Uom_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_Uom_Ds"
+	},
+	
+	
 	validations: [
 		{field: "name", type: 'presence'},
 		{field: "type", type: 'presence'}

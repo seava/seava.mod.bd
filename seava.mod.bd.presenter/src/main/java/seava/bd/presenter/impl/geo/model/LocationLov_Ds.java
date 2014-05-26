@@ -12,6 +12,9 @@ import seava.j4e.presenter.impl.model.AbstractAuditableLov_Ds;
 
 @Ds(entity = Location.class)
 public class LocationLov_Ds extends AbstractAuditableLov_Ds<Location> {
+
+	public static final String ALIAS = "bd_LocationLov_Ds";
+
 	public static final String f_targetRefid = "targetRefid";
 	public static final String f_asString = "asString";
 	public static final String f_forBilling = "forBilling";

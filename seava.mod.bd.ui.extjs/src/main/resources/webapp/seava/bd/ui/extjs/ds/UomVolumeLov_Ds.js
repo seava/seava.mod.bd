@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.UomVolumeLov_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_UomVolumeLov_Ds"
+	},
+	
+	
 	fields: [
 		{name:"id", type:"string"},
 		{name:"clientId", type:"string"},

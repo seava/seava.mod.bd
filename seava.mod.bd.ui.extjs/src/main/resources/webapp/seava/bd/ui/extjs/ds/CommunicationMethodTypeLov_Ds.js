@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.CommunicationMethodTypeLov_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_CommunicationMethodTypeLov_Ds"
+	},
+	
+	
 	fields: [
 		{name:"targetAlias", type:"string"},
 		{name:"targetType", type:"string"},

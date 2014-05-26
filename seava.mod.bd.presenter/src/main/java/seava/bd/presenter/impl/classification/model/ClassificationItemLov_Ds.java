@@ -15,6 +15,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCodeLov_Ds;
 public class ClassificationItemLov_Ds
 		extends
 			AbstractTypeWithCodeLov_Ds<ClassificationItem> {
+
+	public static final String ALIAS = "bd_ClassificationItemLov_Ds";
+
 	public static final String f_classSystemId = "classSystemId";
 
 	@DsField(join = "left", path = "classSystem.id")

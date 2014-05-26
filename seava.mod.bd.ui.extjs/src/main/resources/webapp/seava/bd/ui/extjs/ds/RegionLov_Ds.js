@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.RegionLov_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_RegionLov_Ds"
+	},
+	
+	
 	fields: [
 		{name:"countryId", type:"string"},
 		{name:"country", type:"string"},

@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.Currency_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_Currency_Ds"
+	},
+	
+	
 	validations: [
 			{field: "name", type: 'presence'}
 	],

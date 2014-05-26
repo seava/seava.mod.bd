@@ -13,6 +13,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCode_Ds;
 
 @Ds(entity = UomType.class, sort = {@SortField(field = UomType_Ds.f_code)})
 public class UomType_Ds extends AbstractTypeWithCode_Ds<UomType> {
+
+	public static final String ALIAS = "bd_UomType_Ds";
+
 	public static final String f_category = "category";
 
 	@DsField

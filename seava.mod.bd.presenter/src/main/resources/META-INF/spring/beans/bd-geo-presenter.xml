@@ -9,7 +9,7 @@
 	
 	<!-- ==================== Country ==================== -->
 		
-	<bean id="Country_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_Country_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.geo.model.Country_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.geo.Country"/>
@@ -17,7 +17,7 @@
 	
 	<!-- ==================== CountryLov ==================== -->
 		
-	<bean id="CountryLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CountryLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.geo.model.CountryLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.geo.Country"/>
@@ -26,7 +26,7 @@
 	
 	<!-- ==================== Region ==================== -->
 		
-	<bean id="Region_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_Region_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.geo.model.Region_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.geo.Region"/>
@@ -34,7 +34,7 @@
 	
 	<!-- ==================== RegionLov ==================== -->
 		
-	<bean id="RegionLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_RegionLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.geo.model.RegionLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.geo.Region"/>
@@ -43,7 +43,7 @@
 	
 	<!-- ==================== City ==================== -->
 		
-	<bean id="City_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_City_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.geo.model.City_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.geo.City"/>
@@ -51,7 +51,7 @@
 	
 	<!-- ==================== Location ==================== -->
 		
-	<bean id="Location_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_Location_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.geo.model.Location_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.geo.Location"/>
@@ -59,7 +59,7 @@
 	
 	<!-- ==================== LocationLov ==================== -->
 		
-	<bean id="LocationLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_LocationLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.geo.model.LocationLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.geo.Location"/>

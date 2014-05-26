@@ -23,6 +23,9 @@ import seava.j4e.presenter.impl.model.AbstractAuditable_Ds;
 				@Param(name = "countryId", field = Location_Ds.f_countryId),
 				@Param(name = "code", field = Location_Ds.f_region)})})
 public class Location_Ds extends AbstractAuditable_Ds<Location> {
+
+	public static final String ALIAS = "bd_Location_Ds";
+
 	public static final String f_regionName = "regionName";
 	public static final String f_cityName = "cityName";
 	public static final String f_adress = "adress";

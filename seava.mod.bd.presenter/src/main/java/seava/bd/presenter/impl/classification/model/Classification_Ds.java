@@ -22,6 +22,9 @@ import seava.j4e.presenter.impl.model.AbstractAuditable_Ds;
 				@Param(name = "classSystemId", field = Classification_Ds.f_systemId),
 				@Param(name = "code", field = Classification_Ds.f_item)})})
 public class Classification_Ds extends AbstractAuditable_Ds<Classification> {
+
+	public static final String ALIAS = "bd_Classification_Ds";
+
 	public static final String f_targetRefid = "targetRefid";
 	public static final String f_targetAlias = "targetAlias";
 	public static final String f_targetType = "targetType";

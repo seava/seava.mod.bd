@@ -15,6 +15,8 @@ public class ClassificationSystemAllLov_Ds
 		extends
 			AbstractTypeWithCodeLov_Ds<ClassificationSystem> {
 
+	public static final String ALIAS = "bd_ClassificationSystemAllLov_Ds";
+
 	public ClassificationSystemAllLov_Ds() {
 		super();
 	}

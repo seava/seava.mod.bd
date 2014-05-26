@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.Location_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_Location_Ds"
+	},
+	
+	
 	fields: [
 		{name:"regionName", type:"string"},
 		{name:"cityName", type:"string"},

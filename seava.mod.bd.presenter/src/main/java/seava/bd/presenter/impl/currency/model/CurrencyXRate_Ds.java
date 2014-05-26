@@ -27,6 +27,9 @@ import seava.j4e.presenter.impl.model.AbstractAuditable_Ds;
 		@RefLookup(refId = CurrencyXRate_Ds.f_targetId, namedQuery = Currency.NQ_FIND_BY_CODE, params = {@Param(name = "code", field = CurrencyXRate_Ds.f_target)}),
 		@RefLookup(refId = CurrencyXRate_Ds.f_providerId, namedQuery = CurrencyXRateProvider.NQ_FIND_BY_CODE, params = {@Param(name = "code", field = CurrencyXRate_Ds.f_provider)})})
 public class CurrencyXRate_Ds extends AbstractAuditable_Ds<CurrencyXRate> {
+
+	public static final String ALIAS = "bd_CurrencyXRate_Ds";
+
 	public static final String f_validAt = "validAt";
 	public static final String f_value = "value";
 	public static final String f_sourceId = "sourceId";

@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.Region_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_Region_Ds"
+	},
+	
+	
 	validations: [
 		{field: "name", type: 'presence'},
 		{field: "country", type: 'presence'}

@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.Country_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_Country_Ds"
+	},
+	
+	
 	validations: [
 		{field: "name", type: 'presence'},
 		{field: "iso2", type: 'presence'}

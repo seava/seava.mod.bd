@@ -9,7 +9,7 @@
 	
 	<!-- ==================== ClassificationSystem ==================== -->
 		
-	<bean id="ClassificationSystem_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_ClassificationSystem_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.classification.model.ClassificationSystem_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.classification.ClassificationSystem"/>
@@ -17,7 +17,7 @@
 	
 	<!-- ==================== ClassificationSystemAllLov ==================== -->
 		
-	<bean id="ClassificationSystemAllLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_ClassificationSystemAllLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.classification.model.ClassificationSystemAllLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.classification.ClassificationSystem"/>
@@ -26,7 +26,7 @@
 	
 	<!-- ==================== ClassificationSystemLov ==================== -->
 		
-	<bean id="ClassificationSystemLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_ClassificationSystemLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.classification.model.ClassificationSystemLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.classification.ClassificationSystem"/>
@@ -36,7 +36,7 @@
 	
 	<!-- ==================== ClassificationItem ==================== -->
 		
-	<bean id="ClassificationItem_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_ClassificationItem_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.classification.model.ClassificationItem_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.classification.ClassificationItem"/>
@@ -44,7 +44,7 @@
 	
 	<!-- ==================== ClassificationItemLov ==================== -->
 		
-	<bean id="ClassificationItemLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_ClassificationItemLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.classification.model.ClassificationItemLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.classification.ClassificationItem"/>
@@ -53,7 +53,7 @@
 	
 	<!-- ==================== Classification ==================== -->
 		
-	<bean id="Classification_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_Classification_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.classification.model.Classification_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.classification.Classification"/>

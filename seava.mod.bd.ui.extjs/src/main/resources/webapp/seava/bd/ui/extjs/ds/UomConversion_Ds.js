@@ -7,6 +7,11 @@
 Ext.define("seava.bd.ui.extjs.ds.UomConversion_Ds", {
 	extend: 'Ext.data.Model',
 	
+	statics: {
+		ALIAS: "bd_UomConversion_Ds"
+	},
+	
+	
 	validations: [
 		{field: "source", type: 'presence'},
 		{field: "target", type: 'presence'}

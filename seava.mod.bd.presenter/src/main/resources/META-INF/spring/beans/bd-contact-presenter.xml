@@ -9,7 +9,7 @@
 	
 	<!-- ==================== CommunicationMethodType ==================== -->
 		
-	<bean id="CommunicationMethodType_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CommunicationMethodType_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.contact.model.CommunicationMethodType_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.contact.CommunicationMethodType"/>
@@ -17,7 +17,7 @@
 	
 	<!-- ==================== CommunicationMethodTypeAllLov ==================== -->
 		
-	<bean id="CommunicationMethodTypeAllLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CommunicationMethodTypeAllLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.contact.model.CommunicationMethodTypeAllLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.contact.CommunicationMethodType"/>
@@ -26,7 +26,7 @@
 	
 	<!-- ==================== CommunicationMethodTypeLov ==================== -->
 		
-	<bean id="CommunicationMethodTypeLov_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CommunicationMethodTypeLov_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.contact.model.CommunicationMethodTypeLov_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.contact.CommunicationMethodType"/>
@@ -36,7 +36,7 @@
 	
 	<!-- ==================== CommunicationMethod ==================== -->
 		
-	<bean id="CommunicationMethod_Ds" scope="singleton" lazy-init="true"
+	<bean id="bd_CommunicationMethod_Ds" scope="singleton" lazy-init="true"
 		class="seava.j4e.presenter.service.ds.DefaultEntityDsService">
 		<property name="modelClass" value="seava.bd.presenter.impl.contact.model.CommunicationMethod_Ds"/>
 		<property name="entityClass" value="seava.bd.domain.impl.contact.CommunicationMethod"/>

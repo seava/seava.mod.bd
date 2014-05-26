@@ -20,6 +20,9 @@ import seava.j4e.presenter.impl.model.AbstractTypeWithCode_Ds;
 		@RefLookup(refId = Region_Ds.f_countryId, namedQuery = Country.NQ_FIND_BY_CODE, params = {@Param(name = "code", field = Region_Ds.f_country)}),
 		@RefLookup(refId = Region_Ds.f_countryId, namedQuery = Country.NQ_FIND_BY_ISO2, params = {@Param(name = "iso2", field = Region_Ds.f_countryIso2)})})
 public class Region_Ds extends AbstractTypeWithCode_Ds<Region> {
+
+	public static final String ALIAS = "bd_Region_Ds";
+
 	public static final String f_iso = "iso";
 	public static final String f_countryId = "countryId";
 	public static final String f_country = "country";
