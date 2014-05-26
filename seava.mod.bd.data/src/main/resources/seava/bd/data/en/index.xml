@@ -5,15 +5,15 @@
 		<set>
 			<files>
 				<file>
-					<ds>Menu_Ds</ds>
+					<ds>ad_Menu_Ds</ds>
 					<file>data/menu/Menu.csv</file>
 				</file>
 				<file>
-					<ds>MenuItem_Ds</ds>
+					<ds>ad_MenuItem_Ds</ds>
 					<file>data/menu/MenuItem_Folder.csv</file>
 				</file>
 				<file>
-					<ds>MenuItem_Ds</ds>
+					<ds>ad_MenuItem_Ds</ds>
 					<file>data/menu/MenuItem_Frame.csv</file>
 				</file>
 			</files>
@@ -23,11 +23,11 @@
 		<set>
 			<files>
 				<file>
-					<ds>UomType_Ds</ds>
+					<ds>ad_UomType_Ds</ds>
 					<file>data/uom/UomType.csv</file>
 				</file>
 				<file>
-					<ds>Uom_Ds</ds>
+					<ds>ad_Uom_Ds</ds>
 					<file>data/uom/Uom.csv</file>
 				</file>
 			</files>
@@ -37,7 +37,7 @@
 		<set>
 			<files>
 				<file>
-					<ds>Currency_Ds</ds>
+					<ds>bd_Currency_Ds</ds>
 					<file>data/currency/Currency.csv</file>
 				</file>
 			</files>
@@ -47,11 +47,11 @@
 		<set>
 			<files>
 				<file>
-					<ds>Country_Ds</ds>
+					<ds>bd_Country_Ds</ds>
 					<file>data/geo/Country.csv</file>
 				</file>
 				<file>
-					<ds>Region_Ds</ds>
+					<ds>bd_Region_Ds</ds>
 					<file>data/geo/Region.csv</file>
 				</file>
 			</files>

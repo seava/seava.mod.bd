@@ -3,15 +3,15 @@
 	<set>
 		<files>
 			<file>
-		 		<ds>Menu_Ds</ds>
+		 		<ds>ad_Menu_Ds</ds>
 		 		<file>data/menu/Menu.csv</file>
 		    </file>
 		    <file>
-		 		<ds>MenuItem_Ds</ds>
+		 		<ds>ad_MenuItem_Ds</ds>
 		 		<file>data/menu/MenuItem_Folder.csv</file>
 		     </file>
 		      <file>
-		 		<ds>MenuItem_Ds</ds>
+		 		<ds>ad_MenuItem_Ds</ds>
 		 		<file>data/menu/MenuItem_Frame.csv</file>
 		     </file>
 		</files>
